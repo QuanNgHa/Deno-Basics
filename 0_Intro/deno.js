@@ -11,3 +11,5 @@ setTimeout(() => {
   console.log("check");
 }, 1000);
 console.table(Deno.metrics());
+
+console.log(window);
